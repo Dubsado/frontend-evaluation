@@ -1,12 +1,38 @@
 .App {
   text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: 96rem; 
+  padding: 1.5rem; 
+  display: flex; 
 }
 
-
-#avatar {
-  border-radius: 50%;
+.nav {
+  background-color: rgb(7 89 133);
 }
 
-#box {
+.box {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  background-color: white;
+  width: 50%; 
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 1rem;
+  max-width: 20rem;
   outline: 2px solid black;
 }
+
+.avatar {
+  border-radius: 50%;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem; 
+}
+
+.feed-img {
+  max-width: 100%; 
+  max-height: 500px; 
+  object-fit: contain; 
+}
+
