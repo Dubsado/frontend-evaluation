@@ -1,3 +1,38 @@
 .App {
   text-align: center;
+  width: 100%;
+}
+
+.counter {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  width: 250px;
+  border: 1px solid black;
+  justify-content: space-between;
+}
+
+.counter__display {
+  height: 75%;
+  font-size: 50px;
+  border-bottom: 1px solid black;
+  font-size: 128px;
+}
+
+.counter__buttons {
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.counter__button {
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  border-radius: 50%;
+  font-size: 30px;
+  cursor: pointer;
 }
